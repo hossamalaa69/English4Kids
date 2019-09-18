@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF8C00">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/numbers_button"
+            android:text="Numbers"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="15dp"
+            android:onClick="OpenNumbers"
+            />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#008000">
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/family_button"
+            android:text="Family Members"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="15dp"
+            android:onClick="OpenFamily"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#800080">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/colors_button"
+            android:text="Colors"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="15dp"
+            android:onClick="OpenColors"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#00CED1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/phrases_button"
+            android:text="Phrases"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingLeft="15dp"
+            android:onClick="OpenPhrases"
+            />
+    </FrameLayout>
+
+</LinearLayout>
